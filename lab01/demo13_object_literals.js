@@ -76,7 +76,7 @@ let list_of_products = [
     model: [
       {
         memory: 256,
-        type: 'Pro Max'
+        type: 'Pro Max', 
       }, 
       {
         memory: 512
@@ -90,4 +90,5 @@ let list_of_products = [
 ]
 
 console.log(list_of_products)
+console.log(list_of_products[0].model)
 console.log(list_of_products[0].model[0].type)
