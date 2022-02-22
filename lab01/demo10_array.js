@@ -33,3 +33,27 @@ console.log(a);
 console.log("Remove item in array");
 a.splice(2,2);
 console.log(a);
+
+console.log("Sort operator");
+a.sort();
+console.log(a);
+
+console.log("Insert or Remove objects");
+a.push(88, 66, [1, 2, 3]);
+console.log("a = ", a);
+let b = a.pop();
+console.log("a = ", a);
+console.log("b = ", b);
+console.log("Insert each item to array");
+a.push(...[11, 22, 33]);
+console.log("a = ", a);
+b = a.pop();
+console.log("a = ", a);
+console.log("b = ", b);
+
+console.log("SHIFT and UNSHIFT");
+a.unshift(999);
+console.log("a = ", a);
+b = a.shift();
+console.log("a = ", a);
+console.log("b = ", b);

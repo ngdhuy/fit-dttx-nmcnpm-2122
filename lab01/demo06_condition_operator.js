@@ -25,3 +25,6 @@ switch(m) {
   default:
     console.log("Dữ liệu không hợp lệ");
 }
+
+// operator with condition
+let k = (n % 2) === 0 ? true : false;

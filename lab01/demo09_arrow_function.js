@@ -18,7 +18,7 @@ SayHi();
 
 // Dinh nghia ham mui ten (Arrow function)
 const SayWelcome = () => {
-  console.log("Welcome to Intruduce Software Engineering");
+  console.log("Welcome to Introduce Software Engineering");
 } 
 
 SayWelcome();
